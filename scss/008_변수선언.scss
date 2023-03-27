@@ -1,0 +1,21 @@
+$sanghun1: #000;
+$sanghun2: #0ff;
+// 한글 변수를 권장하지 않습니다.
+// 고유 명사 같은 경우는 한글 변수를 사용할 수 있습니다.
+
+$상헌: #f00;
+$큰글자: 34px;
+
+.one {
+    font-size: $큰글자;
+    color: $sanghun2;
+}
+
+.two {
+    background-color: $sanghun2;
+    color: $sanghun1;
+}
+
+.three {
+    color: $상헌;
+}

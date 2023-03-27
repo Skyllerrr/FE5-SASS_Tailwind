@@ -1,0 +1,11 @@
+// mixin을 내부에 사용하면 에러가 난다. 무조건 외부에서 사용하기!
+.card {
+    @mixin box {
+        width: 100px;
+        height: 100px;
+    }
+
+    @include box;
+    background-color: blue;
+}
+

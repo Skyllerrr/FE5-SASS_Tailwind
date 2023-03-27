@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* mixin으로 만드는 실습 문제
+.card {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.card-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.product {
+    display: flex;
+    justify-self: right;
+    align-items: right;
+}
+
+.product-item {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+}
+*/
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-item {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+
+.product {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.product-item {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}/*# sourceMappingURL=020_믹스인_실습.css.map */
